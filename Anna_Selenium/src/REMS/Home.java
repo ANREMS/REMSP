@@ -6,6 +6,7 @@ public class Home extends MainClass
 {
   public void presriberDashboard() throws Exception 
   {
+	  System.out.println("new line added in pres dashboard");
 	  System.out.println("write code to click on the button and validate");
 	  driver.findElement(By.xpath(HP.presdeashboardbtn)).click();
 	  if (driver.findElement(By.xpath("//span[@class='icon findBtn']")).isDisplayed())
